@@ -1,0 +1,30 @@
+{
+  "name": "amazonscraper",
+  "version": "1.0.0",
+  "description": "A puppeteer script to scrape product listings from amazon",
+  "main": "index.js",
+  "dependencies": {
+    "objects-to-csv": "^1.3.6",
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skarian/amazonscraper.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "amazon",
+    "scraper"
+  ],
+  "author": "Neil Skaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skarian/amazonscraper/issues"
+  },
+  "homepage": "https://github.com/Skarian/amazonscraper#readme"
+}
